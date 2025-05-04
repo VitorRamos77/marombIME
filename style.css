@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding-top: 10px;
+    background-color: rgb(45, 200, 249);
+}
+
+header > h1{
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+nav{
+    background-color: #016caa;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+nav > a{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Play Pretend', sans-serif;
+    text-decoration: none;
+    margin:0px auto;
+}
+
+nav > a:hover{
+    color: orange;
+}
+
+main{
+    padding: 20px;
+    background-color: rgb(198, 208, 208);
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.produto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.imagem{
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    width: 162px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(src/top-whey-protein-concentrado-1kg-growth-supplements.png);
+}
+
+.imagem > p{
+    width: 162px;
+    text-align: center;
+}
+
+.preco{
+    margin: auto;
+    margin: 10px auto;
+    color: #016caa;
+    font-weight: bold;
+}
+
+.botao{
+    font-weight: bolder;
+    text-align: center;
+    width: 162px;
+    border-radius: 10px;
+    background-color: #016caa;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.botao:hover{
+    background-color: white;
+    color: #016caa;
+}
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
